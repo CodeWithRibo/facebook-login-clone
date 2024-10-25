@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.site-header {
+    padding: 50px;
+}
+main {
+    background-color: #F2F4F7;
+    height: 700px;
+    width: 100%;
+}
+.container-section {
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
+}
+.container-one {
+    padding: 35px 75px 0 0;
+}
+.logo img {
+    width: 332px;
+    height: 106px;
+    padding-right: 10px;
+}
+.description h1 {
+    padding-left: 36px;
+    margin-top: 0;
+    width: 450px; 
+    font-weight: 400; 
+    font-size: 26px;   
+}
+article {
+    display: flex;
+
+} 
+.login-form {
+    padding: 17px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px 5px rgba(0,0,0,0.08);
+    background-color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    text-align: center;
+}
+input {
+    width: 350px;
+    padding: 13px 16px;
+    border: 1px solid #c8c4c4;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input:focus {
+    border: 1px solid rgb(34, 69, 224); 
+    box-shadow: 0 0 3px rgb(0, 75, 189); 
+outline: none; 
+}
+#btn-login {
+    cursor: pointer;
+    width: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #1877F2;
+    transition: all 0.25s;
+}
+#btn-login:hover{
+    opacity: 0.9;
+}
+a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: #0866FF;
+    font-size: 14px
+}
+.line h1 {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #999;
+    width: 100%;
+}
+.btn-create-account {
+    text-align: center;
+}
+.btn-create-account button {
+    background-color: #42B729;
+    color: white;
+    border: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.create-page {
+    position: absolute;
+    right: 38px;
+    padding: 10px 0;
+}
